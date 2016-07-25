@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Tinos|Inknut+Antiqua:400,800,900);
+@import url(https://fonts.googleapis.com/css?family=Volkhov:400,700|Kameron:400,700);
+
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+ overflow-x: hidden;
+  background-image: url("Images/ty50.jpg");
+  background-repeat:no-repeat;
+}
+#quotebox{
+  margin-top: 20px;
+    background-color: #9e3333;
+    opacity: .9;
+    border-radius: 10px;
+    max-height: 75%;
+    max-width: 105%;
+
+
+    height: 500px;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+
+
+#words{
+  font-family: 'Inknut Antiqua', serif;
+ font-size:  3.72em;
+  font-weight: 900;
+  text-align: center;
+  color: black;
+  word-wrap: normal;
+
+}
+
+#quote{
+  text-align: center;
+  font-size: 1.25em;
+  font-family: 'Volkhov', serif;
+  font-weight: 700;
+  color: black;
+}
+#getquote , #share {
+  font-size: 1.25em;
+  font-family: 'Volkhov', serif;
+}
+
+/*
+#move{
+  position:relative;
+  left: 42%;
+  top: -100px;
+
+}
+*/
+
+#move{
+	position:relative;
+	text-align: center;
+	  top: -100px;
+}
